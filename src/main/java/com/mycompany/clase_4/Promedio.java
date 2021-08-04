@@ -11,9 +11,9 @@ public class Promedio {
         int i, maximo = 0, minimo = 101;
         float promedio = 0;
         String nomaximo = "", nominimo = "";
-        String nombre[] = new String[3];
-        double notas[] = new double[3];
-        for (i = 0; i < 3; i++) {
+        String nombre[] = new String[6];
+        double notas[] = new double[6];
+        for (i = 0; i < 6; i++) {
             System.out.println("Digite los nombres de los alumnos");
             nombre[i] = entrada.next();
             System.out.println("Digite las notas");
@@ -28,7 +28,7 @@ public class Promedio {
                 nominimo = nombre[i];
             }
         }
-        for (i = 0; i < 3; i++) {
+        for (i = 0; i < 6; i++) {
             System.out.println(i + 1 + ")" + nombre[i] + "=" + notas[i]);
         }
 
